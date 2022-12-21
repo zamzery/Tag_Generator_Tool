@@ -49,7 +49,7 @@
 						</div>
 						<div class="input-group mb-3">
 							<label class="input-group-text" for="input-cpu-family">Family</label>
-							<select class="form-select" id="input-cpu-family" onchange="fillCpuSocketSeries(cmbCPUFamily, cmbCPUSocketSeries)">
+							<select class="form-select" id="input-cpu-family" onchange="fillCpuSocketSeries(cmbCPUFamily)">
 								<option value="AMD">AMD</option>
 								<option value="INTEL">INTEL</option>
 							</select>

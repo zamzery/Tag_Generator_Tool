@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('tags');
 });
 
+
 Route::resource('cooling_types', App\Http\Controllers\CoolingTypesController::class);
 Route::resource('cpu_family_socket_series', App\Http\Controllers\CpuFamilySocketSeriesController::class);
 Route::resource('fan_types', App\Http\Controllers\FanTypesController::class);
