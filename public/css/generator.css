@@ -1,0 +1,70 @@
+.page
+{
+    display: flex;
+    justify-content: center;
+}
+
+.center
+{
+    text-align: center;
+}
+.container
+{
+    width: 75%;
+}
+
+.margin
+{
+    margin:50px;
+}
+
+.margin-top
+{
+    margin-top:15px;
+}
+
+.margin-bottom
+{
+    margin-bottom:15px;
+}
+
+.input-group-text
+{
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.btn-primary
+{
+    margin: 2px;
+}
+
+.toast
+{
+    font-weight: bolder;
+}
+
+#logo{
+    width: auto;
+    height: 75px;
+    padding: 5px 25px 10px 25px;
+}
+
+.nav-link.principal:hover{
+    background-color: #3a3a3a;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    background-color: #e7eaed;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border:1px solid #ced4da;
+}
