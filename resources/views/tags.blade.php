@@ -401,7 +401,6 @@
 			</div>
 		</div>
 	</form>
-	<script src="{{asset('js/generatetag.js')}}" crossorigin="anonymous"></script>
 	<script src="{{asset('js/engine.js')}}" crossorigin="anonymous"></script>
 	<script src="{{asset('js/ui-variables.js')}}" crossorigin="anonymous"></script>
 	<script src="{{asset('js/ui.js')}}" crossorigin="anonymous"></script>

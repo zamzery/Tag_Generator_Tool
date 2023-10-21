@@ -24,7 +24,8 @@ function initUI(){
 }
 
 changeCpu = ( este ) => {
-	if(este=='intel'){
+	console.log( este )
+	if ( este == 'intel' ) {
 		document.getElementById( "intel" ).value = 1;
 		document.getElementById( "amd" ).value = 0;
 	} else {

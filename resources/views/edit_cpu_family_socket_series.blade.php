@@ -15,12 +15,12 @@
 							<div class="form-check form-check-inline">
 								<input type="hidden" name="amd" id="amd" value="{{$cpu_family_socket_series->amd}}" checked>
 								<input class="form-check-input" type="radio" name="socketCheck" id="amdCheck" onclick="changeCpu('amd')" {{($cpu_family_socket_series->amd==1)? 'checked' : ''}}>
-								<label class="form-check-label" for="amd">AMD</label>
+								<label class="form-check-label" for="amdCheck">AMD</label>
 							</div>
 							<div class="form-check form-check-inline">
 								<input type="hidden" name="intel" id="intel" value="{{$cpu_family_socket_series->intel}}" checked>
 								<input class="form-check-input" type="radio" name="socketCheck" id="intelCheck" onclick="changeCpu('intel');" {{($cpu_family_socket_series->intel==1)? 'checked' : ''}}>
-								<label class="form-check-label" for="intel">INTEL</label>
+								<label class="form-check-label" for="intelCheck">INTEL</label>
 							</div>
 						</div>
 						<div class="form-group">

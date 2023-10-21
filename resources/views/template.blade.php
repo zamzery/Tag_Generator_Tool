@@ -58,7 +58,8 @@
 				</div>
 			</div>
 		</nav>
-		<script src="{{asset('js/jquery-3.6.1.min.js')}}" crossorigin="anonymous"></script>
+		<script src="{{asset('js/generatetag.js')}}" crossorigin="anonymous"></script>
+		<script src="{{asset('js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
 		<script src="{{asset('js/bootstrap.bundle.min.js')}}" crossorigin="anonymous"></script>
 		<div class="page"> 
 			<div class="container margin"> 
